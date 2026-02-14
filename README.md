@@ -7,6 +7,7 @@
 [![Kobo Libra H20](https://img.shields.io/badge/Kobo_Libra_H2O-supported-green)](https://us.kobobooks.com/products/kobo-libra-h2o)
 [![Kobo Elipsa 2E](https://img.shields.io/badge/Kobo_Elipsa_2E-supported-green)](https://us.kobobooks.com/products/kobo-elipsa-2e)
 [![Kobo Libra Colour](https://img.shields.io/badge/Kobo_Libra_Colour-supported-green)](https://us.kobobooks.com/products/kobo-libra-colour)
+[![Kobo Libra 2](https://img.shields.io/badge/Kobo_Libra_2-supported-green)](https://us.kobobooks.com/products/kobo-libra-2)
 [![Kobo Clara Colour](https://img.shields.io/badge/Kobo_Clara_Colour-supported-green)](https://us.kobobooks.com/products/kobo-clara-colour)
 
 
@@ -117,8 +118,6 @@ remarkable. Once opkg and the toltec repository are setup, use `opkg install
 remux` to get remux, for example.
 
 #### Kobo
-
-**NOTE: Only Kobo Clara HD, Libra H2O and Kobo Elipsa 2E are supported**
 
 To install on Kobo devices, download [KoboRoot.tgz](https://build.rmkit.dev/master/latest/kobo/KoboRoot.tgz) and place it in `KOBOReader/.kobo/` after mounting your Kobo reader. This will install remux and a few demo applications. To disable remux, remove `KOBOReader/.adds/rmkit/enable_remux`
 
